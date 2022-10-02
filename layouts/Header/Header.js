@@ -1,6 +1,6 @@
 function Header() {
   return(
-    <header>
+    <header class="p-4">
       Header
     </header>
   );

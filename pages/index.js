@@ -1,35 +1,38 @@
 import Head from 'next/head';
-import Link from 'next/link';
 
-import Sidebar from '../layouts/Sidebar/Sidebar';
+import LeftSidebar from '../layouts/LeftSidebar/LeftSidebar';
 import Header from '../layouts/Header/Header';
+import ContactsList from '../components/ContactsList/ContactsList';
 import Footer from '../layouts/Footer/Footer';
 
 
 function Home() {
   return (
-    <div className="container">
+    <div className="flex">
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
-        <link rel="stylesheet" href="../styles/globals.css" />
-      </Head>
+      </Head>  
 
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
+      <section class="w-fit bg-slate-800 h-screen text-white p-4">
+        <LeftSidebar/>
+      </section>
 
-      
-      
-      <Sidebar/>
+      <section class="w-3/4 flex flex-col">
+        <Header/>
 
-      <Header/>
+        {/*
+        <main>
+          <ContactsList/>
+        </main> 
 
-      <main>
-        allo
-      </main>
+        
+        */}
+        <div class="flex flex-col justify-end grow">
+          <Footer/>
+        </div>
+      </section>
 
-      <Footer/>
     </div>
   )
 }
