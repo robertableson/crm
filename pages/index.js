@@ -14,11 +14,11 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>  
 
-      <section class="w-fit bg-slate-800 h-screen text-white p-4">
+      <section className="w-fit bg-slate-800 h-screen text-white">
         <LeftSidebar/>
       </section>
 
-      <section class="w-3/4 flex flex-col">
+      <section className="w-3/4 flex flex-col">
         <Header/>
 
         {/*
@@ -28,7 +28,7 @@ function Home() {
 
         
         */}
-        <div class="flex flex-col justify-end grow">
+        <div className="flex flex-col justify-end grow">
           <Footer/>
         </div>
       </section>
