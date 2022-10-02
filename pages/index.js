@@ -12,7 +12,14 @@ function Home() {
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="../styles/globals.css" />
       </Head>
+
+      <h1 className="text-3xl font-bold underline">
+        Hello world!
+      </h1>
+
+      
       
       <Sidebar/>
 
