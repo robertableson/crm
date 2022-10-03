@@ -14,7 +14,7 @@ function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>  
 
-      <section className="w-fit bg-slate-800 h-screen text-white">
+      <section className="w-fit bg-slate-800 h-screen text-slate-100">
         <LeftSidebar/>
       </section>
 

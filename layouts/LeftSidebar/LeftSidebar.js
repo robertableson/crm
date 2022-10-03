@@ -6,7 +6,7 @@ function LeftSidebar() {
     <aside>       
       <Link href="/">
         <a>
-          <div className="p-4">
+          <div className="p-4 hover:bg-slate-700">
           
             <Image
                 src="/logo.png"
@@ -21,11 +21,10 @@ function LeftSidebar() {
       </Link>
       
         
-      <ul className="p-4">
-        <li  className="hover:bg-cyan-600"><Link className="hover:bg-cyan-600" href="/"><a className="hover:bg-cyan-600">Contacts</a></Link></li>
-        <li ><Link href="/"><a>Other</a></Link></li>
+      <ul>
+        <li><Link href="/"><a><div className="hover:bg-slate-700 bg-slate-700 text-slate-100 px-4 py-1">Contacts</div></a></Link></li>
+        <li><Link href="/"><a><div className="hover:bg-slate-700 px-4 py-1">Other page</div></a></Link></li>
       </ul>
-
       
     </aside>
   );
