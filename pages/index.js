@@ -21,13 +21,10 @@ function Home() {
       <section className="flex flex-col grow">
         <Header/>
 
-        {/*
         <main>
           <ContactsList/>
         </main> 
 
-        
-        */}
         <div className="flex flex-col justify-end grow">
           <Footer/>
         </div>
