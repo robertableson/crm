@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className="flex">
       <Head>
-        <title>Create Next App</title>
+        <title>Simple CRM</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>  
 
