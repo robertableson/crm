@@ -18,7 +18,7 @@ function Home() {
         <LeftSidebar/>
       </section>
 
-      <section className="w-3/4 flex flex-col">
+      <section className="flex flex-col grow">
         <Header/>
 
         {/*
@@ -28,7 +28,7 @@ function Home() {
 
         
         */}
-        <div className="flex flex-col justify-end grow	">
+        <div className="flex flex-col justify-end grow">
           <Footer/>
         </div>
       </section>
