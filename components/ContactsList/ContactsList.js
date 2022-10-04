@@ -14,11 +14,14 @@ function ContactsList() {
                             Contact
                         </th>
                         <th scope="col" class="py-3 px-6">
-                            Deal worth
+                            LTV
                         </th>
                         <th scope="col" class="py-3 px-6">
-                            Percentage
+                            Win chance
                         </th>
+                        <th scope="col" class="py-3 px-6">
+                          Action
+                      </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -35,6 +38,26 @@ function ContactsList() {
                         <td class="py-4 px-6">
                             80%
                         </td>
+                        <td class="py-4 px-6">
+                          <a href="#" class="font-medium text-slate-500 underline hover:underline">Edit</a>
+                      </td>
+                    </tr>
+                    <tr class="bg-gray-50 border-b">
+                        <th scope="row" class="py-4 px-6 font-medium text-slate-700 whitespace-nowrap">
+                            Apple
+                        </th>
+                        <td class="py-4 px-6">
+                            Steve
+                        </td>
+                        <td class="py-4 px-6">
+                            100,000$
+                        </td>
+                        <td class="py-4 px-6">
+                            80%
+                        </td>
+                        <td class="py-4 px-6">
+                          <a href="#" class="font-medium text-slate-500 underline hover:underline">Edit</a>
+                      </td>
                     </tr>
                 </tbody>
             </table>
