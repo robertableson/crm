@@ -3,7 +3,6 @@ function ContactsList() {
     <div className="p-4">
       <h1 className="text-xl font-semibold pb-4">Contacts</h1>
       
-      
         <div class="overflow-x-auto relative">
             <table class="w-full text-sm text-left text-slate-500">
                 <thead class="text-xs text-slate-700 uppercase bg-slate-100">
