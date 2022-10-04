@@ -28,7 +28,7 @@ function Home() {
 
         
         */}
-        <div className="flex flex-col justify-end grow">
+        <div className="flex flex-col justify-end grow	">
           <Footer/>
         </div>
       </section>
