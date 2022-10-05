@@ -1,7 +1,12 @@
 function ContactsList() {
   return(
     <div className="p-4">
-      <h1 className="text-xl font-semibold pb-4">Contacts</h1>
+      <div class="flex space-x-2 justify-between py-2">
+        <h1 className="text-xl font-semibold pb-4">Contacts</h1>
+        <div>
+          <button type="button" class="inline-block px-6 py-2.5 bg-slate-700 text-white font-medium text-xs leading-tight uppercase rounded-full shadow-md hover:bg-slate-800 hover:shadow-lg focus:bg-slate-800 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-slate-900 active:shadow-lg transition duration-150 ease-in-out">Add new</button>
+        </div>
+      </div>
 
         <div class="overflow-x-auto relative">
             <table class="w-full text-sm text-left text-slate-500">
