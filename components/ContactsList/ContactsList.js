@@ -12,6 +12,12 @@ function ContactsList() {
             <table class="w-full text-sm text-left text-slate-500">
                 <thead class="text-xs text-slate-700 uppercase bg-slate-100">
                     <tr>
+                        <th scope="col" class="p-4">
+                          <div class="flex items-center">
+                              <input id="checkbox-all-search" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                              <label for="checkbox-all-search" class="sr-only">checkbox</label>
+                          </div>
+                      </th>
                         <th scope="col" class="py-3 px-6">
                             Business
                         </th>
@@ -31,6 +37,12 @@ function ContactsList() {
                 </thead>
                 <tbody>
                     <tr class="bg-white border-b">
+                        <td class="p-4 w-4">
+                            <div class="flex items-center">
+                                <input id="checkbox-table-search-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                                <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                            </div>
+                        </td>
                         <th scope="row" class="py-4 px-6 font-medium text-slate-700 whitespace-nowrap">
                             Apple
                         </th>
@@ -48,6 +60,12 @@ function ContactsList() {
                       </td>
                     </tr>
                     <tr class="bg-gray-50 border-b">
+                        <td class="p-4 w-4">
+                            <div class="flex items-center">
+                                <input id="checkbox-table-search-2" type="checkbox" class="w-4 h-4 text-blue-600 bg-gray-100 rounded border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"/>
+                                <label for="checkbox-table-search-2" class="sr-only">checkbox</label>
+                            </div>
+                        </td>
                         <th scope="row" class="py-4 px-6 font-medium text-slate-700 whitespace-nowrap">
                             Apple
                         </th>
